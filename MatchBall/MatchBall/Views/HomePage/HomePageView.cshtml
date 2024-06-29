@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+@model MatchBall.ViewModels.HomePageViewModel
+@inject MatchBall.Services.IAccounts Account
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css//HomePage.css">
+    <script src="~/js//HomePage.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="creditWithdraw">
+        <div id="credit" onclick="ToggleCredit()">Credit</div>
+        <div id="widthdraw" onclick="ToggleWithdraw()">Withdraw</div>
+        <div style="color: white; width: 100px;margin-left:8px">Balance:@(Account.GetCreditByUserId(Model.userId).ToString())</div>
+        
+    </div>
+    <div style="color: red;position: relative; left: 40%; top: 40%;">
+        @{
+            if (Model == null)
+            {
+
+            }
+            else
+            {
+                <h5>@(Model.ErrorText)</h5>
+            }
+        }
+    </div>
+    <div id="CenterText">Click any color below to throw a ball</div>
+    
+    <form asp-controller="HomePage" asp-action="ThrowBall" method="post">
+        <button type="submit" id="Color1" name="id" value="1"></button>
+        <button type="submit" id="Color2" name="id" value="2"></button>
+        <button type="submit" id="Color3" name="id" value="3"></button>
+        <button type="submit" id="Color4" name="id" value="4"></button>
+        <button type="submit" id="Color5" name="id" value="5"></button>
+    </form>
+    <div class="appear" id="CreditDiv">
+        <form asp-controller="HomePage" asp-action="AddCredit" method="post">
+            <input type="number" name="amount" placeholder="Enter Amount" required min="20">
+            <button type="submit">Transact</button>
+        </form>
+    </div>
+    <div class="appear" id="WithdrawDiv">
+        <form asp-controller="HomePage" asp-action="WithdrawCredit" method="post">
+            <input type="number" name="amount" placeholder="Enter Amount" required min="1">
+            <button type="submit">Transact</button>
+        </form>
+    </div>
+</body>
+</html>

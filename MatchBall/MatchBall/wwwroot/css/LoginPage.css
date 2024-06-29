@@ -1,0 +1,79 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #101010;
+    overflow: hidden;
+}
+
+#LoginBox {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 60vh;
+    background-color: #1f1f1f;
+    border: 0.5px solid #656565;
+    border-radius: 18px;
+    padding-left: 15px;
+}
+
+#LoginText {
+    position: relative;
+    left: 39%;
+    top: 20px;
+    color: #7d7d7d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#UsernameText {
+    color: #7d7d7d;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: #000000;
+    border: 1px solid #656565;
+    border-radius: 8px;
+    height: 40px;
+    width: 20vw;
+    color: white;
+    padding: 5px;
+}
+
+#PasswordText {
+    color: #7d7d7d;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+Button {
+    margin-top: 50px;
+    margin-left: 14vw;
+    height: 40px;
+    width: 10vw;
+    border-radius: 8px;
+    background-color: #656565;
+    border: 1px solid #7d7d7d;
+}
+
+a {
+    color: #7d7d7d;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

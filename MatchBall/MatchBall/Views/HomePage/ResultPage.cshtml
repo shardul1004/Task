@@ -1,0 +1,18 @@
+﻿@{
+    Layout = null;
+}
+@model MatchBall.ViewModels.ResultPageViewModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title></head>
+<body style="background-color: #1f1f1f;display: flex; justify-content: center; align-content: center; flex-direction: column;">
+    @{
+        if(Model.result.Equals("Won")){
+            <h1 style="color: whitesmoke">You Won</h1>
+        }else{
+            <h1 style="color: whitesmoke">You Lost</h1>
+        }
+    }
+    <a href="HomePageView" style="color:whitesmoke"><h1>Go Back</h1></a>
+    </body>
+</html>

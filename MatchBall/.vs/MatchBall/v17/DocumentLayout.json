@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\MatchBall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\services\\ballmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\services\\ballmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\utilities\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\utilities\\hashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\filter\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\filter\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\utilities\\jwtutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\utilities\\jwtutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\services\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\services\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|d:\\.net\\matchball\\matchball\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1E0BE8-409F-43F3-BA7B-38C90CDEC682}|MatchBall\\MatchBall.csproj|solutionrelative:matchball\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 433,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BallMachine.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Services\\BallMachine.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Services\\BallMachine.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Services\\BallMachine.cs",
+              "RelativeToolTip": "MatchBall\\Services\\BallMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:46:31.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Services\\Accounts.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Services\\Accounts.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Services\\Accounts.cs",
+              "RelativeToolTip": "MatchBall\\Services\\Accounts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:46:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JWTUtil.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Utilities\\JWTUtil.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Utilities\\JWTUtil.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Utilities\\JWTUtil.cs",
+              "RelativeToolTip": "MatchBall\\Utilities\\JWTUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:31:48.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JWTAuth.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Filter\\JWTAuth.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Filter\\JWTAuth.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Filter\\JWTAuth.cs",
+              "RelativeToolTip": "MatchBall\\Filter\\JWTAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:30:38.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hashing.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Utilities\\Hashing.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Utilities\\Hashing.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Utilities\\Hashing.cs",
+              "RelativeToolTip": "MatchBall\\Utilities\\Hashing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:48:05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePageController.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\HomePageController.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Controllers\\HomePageController.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\HomePageController.cs",
+              "RelativeToolTip": "MatchBall\\Controllers\\HomePageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:37:32.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MatchBall\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:47:33.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "MatchBall\\Controllers\\SignUpController.cs",
+              "ToolTip": "D:\\.net\\MatchBall\\MatchBall\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "MatchBall\\Controllers\\SignUpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:47:35.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

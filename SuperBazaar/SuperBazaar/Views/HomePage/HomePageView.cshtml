@@ -1,0 +1,86 @@
+﻿@model SuperBazaar.ViewModels.SuperBazaarViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css//HomePage.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Super Bazar</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price per kg/litre</th>
+                <th>Quantity Available</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Itemname</td>
+                    <td>@item.Itemprice.ToString("C")</td>
+                    <td>@item.Itemquantity</td>
+                    <td>
+                        @using (Html.BeginForm("AddItem", "HomePage", FormMethod.Post, new { id = $"form_{item.Itemname.Replace(" ", "_")}" }))
+                        {
+                            <input type="hidden" name="SelectedItemName" value="@item.Itemname" />
+                            <input type="number" name="Quantity" min="1" value="1" />
+                            <button type="submit">Add @item.Itemname</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h3>Selected Items</h3>
+    @if (Model.SelectedItems != null && Model.SelectedItems.Count > 0)
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var selectedItem in Model.SelectedItems)
+                {
+                    <tr>
+                        <td>@selectedItem.ItemName</td>
+                        <td style="display:flex; justify-content:space-between">
+                            @selectedItem.Quantity
+                            @using (Html.BeginForm("RemoveItem", "HomePage", FormMethod.Post, new { id = $"form_{selectedItem.ItemName.Replace(" ", "_")}" }))
+                            {
+                                <input type="hidden" name="SelectedItemName" value="@selectedItem.ItemName" />
+                                <button type="submit">Remove @selectedItem.ItemName</button>
+                            }
+                        </td>
+                        <td>@selectedItem.TotalPrice.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div>
+            <strong>Total: </strong><span>@Model.SelectedItems.Sum(i => i.TotalPrice).ToString("C")</span>
+        </div>
+        @using (Html.BeginForm("Buy", "HomePage", FormMethod.Post))
+        {
+            @Html.HiddenFor(m => m.SelectedItems)
+            <button type="submit">Buy</button>
+        }
+    }
+    else
+    {
+        <p>No items selected yet.</p>
+    }
+</body>
+</html>

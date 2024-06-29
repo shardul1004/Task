@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+@model MatchBall.ViewModels.LoginViewModel;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/LoginPage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="LoginBox">
+        <div id="LoginText">Login</div>
+        <form asp-action="Authenticate" asp-controller="Login">
+            <div id="UsernameText">Username</div>
+            <input asp-for="Username" type="text"></input>
+            <div id="PasswordText">Password</div>
+            <input asp-for="Password" type="text"></input>
+            <button type="submit">Submit</button>
+        </form>
+        <div style="color: red;">
+            @{
+                if (Model.ErrorText != null)
+                {
+                    <h4>@(Model.ErrorText)</h4>
+                }
+            }
+        </div>
+        <a href="https://localhost:7013/SignUp/SignUpPage">New User?</a>
+    </div>
+</body>
+</html>

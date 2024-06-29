@@ -1,0 +1,7 @@
+C:\Users\shard\source\repos\Palindrome\Palindrome\bin\Debug\Palindrome.exe.config
+C:\Users\shard\source\repos\Palindrome\Palindrome\bin\Debug\Palindrome.exe
+C:\Users\shard\source\repos\Palindrome\Palindrome\bin\Debug\Palindrome.pdb
+C:\Users\shard\source\repos\Palindrome\Palindrome\obj\Debug\Palindrome.csproj.AssemblyReference.cache
+C:\Users\shard\source\repos\Palindrome\Palindrome\obj\Debug\Palindrome.csproj.CoreCompileInputs.cache
+C:\Users\shard\source\repos\Palindrome\Palindrome\obj\Debug\Palindrome.exe
+C:\Users\shard\source\repos\Palindrome\Palindrome\obj\Debug\Palindrome.pdb

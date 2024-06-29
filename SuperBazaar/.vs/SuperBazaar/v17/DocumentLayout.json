@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\SuperBazaar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\services\\automatedhouseholditemdispenser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\services\\automatedhouseholditemdispenser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\services\\superbazar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\services\\superbazar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\services\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\services\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|d:\\.net\\superbazaar\\superbazaar\\views\\homepage\\homepageview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F296B51-D874-41D7-BAE8-5335CDECFDB4}|SuperBazaar\\SuperBazaar.csproj|solutionrelative:superbazaar\\views\\homepage\\homepageview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuperBazar.cs",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\SuperBazar.cs",
+              "RelativeDocumentMoniker": "SuperBazaar\\Services\\SuperBazar.cs",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\SuperBazar.cs",
+              "RelativeToolTip": "SuperBazaar\\Services\\SuperBazar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:48:31.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutomatedHouseholdItemDispenser.cs",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\AutomatedHouseholdItemDispenser.cs",
+              "RelativeDocumentMoniker": "SuperBazaar\\Services\\AutomatedHouseholdItemDispenser.cs",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\AutomatedHouseholdItemDispenser.cs",
+              "RelativeToolTip": "SuperBazaar\\Services\\AutomatedHouseholdItemDispenser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:48:28.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\Accounts.cs",
+              "RelativeDocumentMoniker": "SuperBazaar\\Services\\Accounts.cs",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Services\\Accounts.cs",
+              "RelativeToolTip": "SuperBazaar\\Services\\Accounts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:48:25.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePageController.cs",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Controllers\\HomePageController.cs",
+              "RelativeDocumentMoniker": "SuperBazaar\\Controllers\\HomePageController.cs",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Controllers\\HomePageController.cs",
+              "RelativeToolTip": "SuperBazaar\\Controllers\\HomePageController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T03:46:58.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePageView.cshtml",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Views\\HomePage\\HomePageView.cshtml",
+              "RelativeDocumentMoniker": "SuperBazaar\\Views\\HomePage\\HomePageView.cshtml",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Views\\HomePage\\HomePageView.cshtml",
+              "RelativeToolTip": "SuperBazaar\\Views\\HomePage\\HomePageView.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T13:26:20.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\SuperBazaar\\SuperBazaar\\Program.cs",
+              "RelativeDocumentMoniker": "SuperBazaar\\Program.cs",
+              "ToolTip": "D:\\.net\\SuperBazaar\\SuperBazaar\\Program.cs",
+              "RelativeToolTip": "SuperBazaar\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:24:30.566Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

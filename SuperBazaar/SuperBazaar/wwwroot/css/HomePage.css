@@ -1,0 +1,97 @@
+﻿
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* White-green background color */
+}
+
+h2 {
+    color: #2E865F; /* Dark green color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+
+table {
+    width: 90%; /* Reduced width to 90% */
+    margin: 20px auto; /* Added horizontal margin and centered the table */
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* White-grey border color */
+    border-radius: 10px; /* Added border radius */
+}
+
+th, td {
+    border: 1px solid #ccc; /* White-grey border color */
+    padding: 15px; /* Increased padding */
+    text-align: left;
+}
+
+th {
+    background-color: #f7f7f7; /* Light grey background color */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background color */
+}
+
+/* Form Styles */
+
+input[type="number"] {
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc; /* White-grey border color */
+}
+
+button[type="submit"] {
+    background-color: #2E865F; /* Dark green color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Added border radius */
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: #1E755F; /* Darker green color */
+    }
+
+/* Selected Items Styles */
+
+.selected-items {
+    margin-top: 20px;
+}
+
+    .selected-items table {
+        width: 90%; /* Reduced width to 90% */
+        margin: 20px auto; /* Added horizontal margin and centered the table */
+        border-collapse: collapse;
+        border: 1px solid #ccc; /* White-grey border color */
+        border-radius: 10px; /* Added border radius */
+    }
+
+    .selected-items th, .selected-items td {
+        border: 1px solid #ccc; /* White-grey border color */
+        padding: 15px; /* Increased padding */
+        text-align: left;
+    }
+
+    .selected-items th {
+        background-color: #f7f7f7; /* Light grey background color */
+    }
+
+    .selected-items tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light grey background color */
+    }
+
+.total-price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
